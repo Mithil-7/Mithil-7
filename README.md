@@ -126,7 +126,9 @@ Working on exchange-rate forecasting and APT detection research.
 <a href="https://github.com/Mithil-7?tab=overview">
   <img src="assets/signal-field.svg" width="100%" alt="A three-dimensional contribution signal field: each column represents one day, its height represents contribution count, and color represents GitHub's activity level." />
 </a>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mithil-7&theme=tokyonight&hide_border=true&background=040811&ring=00c8ff&fire=7b5cff&currStreakLabel=00c8ff" />
+<p align="center">
+  <img src="assets/github-streak.svg" width="100%" alt="GitHub contribution streak" />
+</p>
 
 <sub>Generated from my public GitHub contribution calendar. This is a dated snapshot, not a live feed or performance metric. Click either chart for the latest GitHub activity.</sub>
 

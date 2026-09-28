@@ -127,7 +127,7 @@ Working on exchange-rate forecasting and APT detection research.
   <img src="assets/signal-field.svg" width="100%" alt="A three-dimensional contribution signal field: each column represents one day, its height represents contribution count, and color represents GitHub's activity level." />
 </a>
 
-<sub>Generated from my public GitHub contribution calendar. This is a dated snapshot, not a live feed or performance metric. Click either chart for the latest GitHub activity. Refresh instructions are in <a href="SETUP.md">SETUP.md</a>.</sub>
+<sub>Generated from my public GitHub contribution calendar. This is a dated snapshot, not a live feed or performance metric. Click either chart for the latest GitHub activity.</sub>
 
 ---
 

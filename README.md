@@ -133,7 +133,7 @@ The full tree has hover highlighting in the interactive lab. The README version 
   </a>
 </p>
 
-The graph is generated from GitHub's contribution calendar and refreshed daily by GitHub Actions. It is not a hand-drawn activity claim. See [SETUP.md](SETUP.md) for the one-time setup.
+The graph is generated from GitHub's contribution calendar and refreshed daily by GitHub Actions. It is not a hand-drawn activity claim.
 
 ---
 

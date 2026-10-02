@@ -156,7 +156,7 @@ Working on exchange-rate forecasting and APT detection research.
   </a>
 </p>
 
-The graph is generated from GitHub's contribution calendar and refreshed daily by GitHub Actions. It is not a hand-drawn activity claim. See [SETUP.md](SETUP.md) for the one-time setup.
+The graph is generated from GitHub's contribution calendar and refreshed daily by GitHub Actions. It is not a hand-drawn activity claim.
 
 ---
 

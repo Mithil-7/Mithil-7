@@ -127,9 +127,32 @@ The full tree has hover highlighting in the interactive lab. The README version 
 
 ## Contributions, as a 3D field
 
+**Freelance AI/ML Developer**  
+<sub>2026–present</sub>  
+Building custom AI/ML solutions and full-stack applications, from data pipelines and training workflows to APIs.
+
+**SASTRA Deemed University · Student Researcher**  
+<sub>February 2026–present</sub>  
+Working on exchange-rate forecasting and APT detection research.
+
+| Milestone | Detail |
+| :--- | :--- |
+| **CMI STEMS 2025** | Top 30 in India · Chennai Mathematical Institute |
+| **Smart India Hackathon 2025** | RL-based intelligent traffic management · Odisha |
+| **Mathematics Olympiad** | IOQM qualifier · Merit certificate |
+| **Yale / Coursera** | Financial Markets certification · Completed |
+| **NPTEL SWAYAM** | Deep Learning coursework · 2026 |
+| **Harvard CS50W** | Web Programming with Python and JavaScript · In progress |
+
+## 06 / The contribution signal
+
+<a href="https://github.com/Mithil-7?tab=overview">
+  <img src="assets/contributions.svg" width="100%" alt="GitHub activity snapshot with the reported yearly contribution total and a weekly activity signal." />
+</a>
+
 <p align="center">
   <a href="https://github.com/Mithil-7?tab=overview">
-    <img src="assets/contributions-3d.svg" width="100%" alt="Three-dimensional GitHub contribution graph generated from Mithil-7's public contribution calendar." />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mithil-7&amp;theme=tokyonight&amp;hide_border=true&amp;background=040811&amp;ring=00c8ff&amp;fire=7b5cff&amp;currStreakLabel=00c8ff" width="100%" alt="Mithil-7 GitHub contribution streak" />
   </a>
 </p>
 

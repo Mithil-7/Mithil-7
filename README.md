@@ -1,104 +1,131 @@
+
 <div align="center">
 
-<a href="https://mithil-7.github.io/">
-  <img src="assets/hero.svg" width="100%" alt="Mithilesh Adhinarayanan — Signal to Policy to Impact. Reinforcement learning, quantitative finance, and applied AI." />
+<a href="https://github.com/Mithil-7">
+  <img src="assets/cube-hero.svg" width="100%" alt="Mithilesh Adhinarayanan — a Rubik's cube turning beside mathematical notation." />
 </a>
 
-**AI researcher · Quant enthusiast · Builder**
+<a href="https://mithil-7.github.io/interactive-lab.html"><b>Open the playable cube + hoverable work tree →</b></a>
 
-[Portfolio](https://mithil-7.github.io/) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/mithilesh-a-07486935b/) &nbsp; / &nbsp; [Email](mailto:mithilcuber@gmail.com) &nbsp; / &nbsp; [Freelancer](https://www.freelancer.in/u/Mithil7a)
+<br />
 
-<sub>SASTRA Deemed University · B.Tech CSE (AI & DS), 2024–2028 · Hosur, India</sub>
+**Mithilesh Adhinarayanan**  
+`CSE · AI & DS` &nbsp; `SASTRA University` &nbsp; `Hosur, India`
+
+[GitHub](https://github.com/Mithil-7) · [Portfolio](https://mithil-7.github.io/) · [LinkedIn](https://www.linkedin.com/in/mithilesh-a-07486935b/) · [Email](mailto:mithilcuber@gmail.com)
 
 </div>
 
 ---
 
-## 01 / The questions I build around
+## The idea
 
-**How do you turn noisy observations into better decisions?**
+I like problems with a state, a move, and a measurable result.
 
-That question connects most of my work: exchange-rate forecasting, reinforcement-learning agents for traffic signals, and machine learning for network security. I'm **Mithilesh**, a Computer Science undergraduate at **SASTRA Deemed University**, exploring the intersection of **deep learning, reinforcement learning, and quantitative finance**.
+The Rubik's cube is a useful model for that:
 
-I also build the systems around the models: data pipelines, APIs, dashboards, and applications that make an idea usable beyond a notebook.
+```text
+state ── move ──> new state
+  │                 │
+  └── constraint ───┘
+```
 
-| Research lens | Engineering lens | Mathematical lens |
-| :--- | :--- | :--- |
-| Learn from sequential data and feedback | Connect models to useful applications | Understand uncertainty, signals, and risk |
-| DNN–RL forecasting · APT detection | Multi-agent traffic control · Voice-first AI | Alpha research · Probability · Time series |
+In code, that becomes reinforcement learning, data remediation, traffic control, forecasting, and the mathematics behind a decision.
 
-## 02 / Selected builds
+```text
+π(a | s)        choose an action from a state
+P(s' | s, a)    model the next state
+Σ error(t)      measure what needs fixing
+```
 
-<p align="center">
-  <a href="https://github.com/Mithil-7/RL-Based-Traffic-Management-System"><img src="assets/project-traffic.svg" width="49%" alt="Adaptive Traffic: multi-agent reinforcement learning, camera telemetry, and safety-constrained signal control. Python, DQN, OpenCV, FastAPI." /></a>
-  <a href="https://github.com/Mithil-7/CraaftHaat"><img src="assets/project-crafthaat.svg" width="49%" alt="CraftHaat: an offline-first artisan catalog prototype built around voice and photos. Flutter, FastAPI, Whisper, and Ollama." /></a>
-</p>
-<p align="center">
-  <a href="https://github.com/Mithil-7/Open_Env-Exchange_rate"><img src="assets/project-openenv.svg" width="49%" alt="Exchange Rate OpenEnv: an agent environment for handling missing, spiking, and stale currency feeds. Python, OpenEnv, Docker." /></a>
-  <a href="https://github.com/Mithil-7/DL--nptel-learning-projects"><img src="assets/project-deeplearning.svg" width="49%" alt="Deep Learning Lab: foundational deep learning models and learning notebooks. Python, Jupyter, NPTEL learning." /></a>
-</p>
+## What I work on
 
-| Project | What makes it interesting |
+| Direction | Current focus |
 | :--- | :--- |
-| [**Adaptive Traffic Management**](https://github.com/Mithil-7/RL-Based-Traffic-Management-System) | SIH 2025 idea developed into a multi-agent platform: DQN signal control, emergency preemption, routing, MQTT telemetry, and a dashboard. A hard safety layer constrains learned policies. Simulation and hardware integration points are documented separately. |
-| [**CraftHaat**](https://github.com/Mithil-7/CraaftHaat) | Voice + photo → AI-generated product catalog. Offline capture with a self-hosted speech/image/LLM backend and ONDC payload preparation. A prototype: live ONDC publishing and production authentication remain open work. |
-| [**Exchange Rate OpenEnv**](https://github.com/Mithil-7/Open_Env-Exchange_rate) | An environment where agents choose whether to accept, replace, or drop currency-feed ticks under missing data, price spikes, and latency. **Data remediation**, distinct from my forecasting research. |
-| [**Deep Learning Lab**](https://github.com/Mithil-7/DL--nptel-learning-projects) | A collection of deep learning models built while working through the fundamentals. |
+| **Reinforcement learning** | PPO, DQN, multi-agent control, sequential decisions |
+| **Quantitative finance** | Time series, alpha research, risk, portfolio optimisation |
+| **Applied ML** | Network anomaly detection, computer vision, data quality |
+| **Systems** | Python APIs, dashboards, mobile apps, edge and data pipelines |
 
-<details>
-<summary><b>More from the workbench</b></summary>
-
-- [Amazon ML Challenge](https://github.com/Mithil-7/Amazon_ML-challenge) — challenge work and notebooks.
-- [Data Science Projects](https://github.com/Mithil-7/Data-Science-projects) — a collection of my projects.
-- [PyMC / GSoC 2026 Preparation](https://github.com/Mithil-7/GSoC-2026-PyMC-Preparation) — preparation repository; not a claim of program selection.
-- [Prep](https://github.com/Mithil-7/Prep) — coding, DSA, competitive programming, and quantitative-finance preparation.
-- [Portfolio source](https://github.com/Mithil-7/Mithil-7.github.io) — the website behind my work.
-
-My GitHub also includes forks for learning and exploration; those are not presented here as original projects.
-
-</details>
-
-**[Explore all repositories →](https://github.com/Mithil-7?tab=repositories)**
-
-## 03 / Research notebook
-
-### Learning from markets
-**DNN–RL exchange-rate forecasting · March 2026–present**
-
-Exploring hybrid deep neural networks and **PPO policy-gradient reinforcement learning** for financial time-series forecasting, incorporating **crude oil, gold futures, and NIFTY 50** as macroeconomic signals.
-
-`Deep learning` · `PPO` · `Multivariate time series` · `Quantitative finance`
-
-**Publication goal:** an IEEE submission in 2026. Research is in progress; this is not a published-paper claim.
-
-### Learning from threats
-**Advanced Persistent Threat detection · February 2026–present**
-
-Investigating machine learning and anomaly detection for identifying persistent, sophisticated threats in network activity.
-
-`Anomaly detection` · `Network security` · `Machine learning`
-
-## 04 / Tools behind the work
+## Selected projects
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,c,java,js,tensorflow,pytorch,opencv,fastapi,django,react,flutter,postgres,mongodb,docker,git,linux,raspberrypi&amp;perline=9" alt="Python, C++, C, Java, JavaScript, TensorFlow, PyTorch, OpenCV, FastAPI, Django, React, Flutter, PostgreSQL, MongoDB, Docker, Git, Linux, Raspberry Pi" />
+  <a href="https://github.com/Mithil-7/RL-Based-Traffic-Management-System"><img src="assets/project-traffic.svg" width="49%" alt="Adaptive Traffic Management project card" /></a>
+  <a href="https://github.com/Mithil-7/CraaftHaat"><img src="assets/project-crafthaat.svg" width="49%" alt="CraftHaat project card" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Mithil-7/Open_Env-Exchange_rate"><img src="assets/project-openenv.svg" width="49%" alt="Exchange Rate OpenEnv project card" /></a>
+  <a href="https://github.com/Mithil-7/DL--nptel-learning-projects"><img src="assets/project-deep-learning.svg" width="49%" alt="Deep Learning projects card" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Mithil-7/EFSAT"><img src="assets/project-efsat.svg" width="49%" alt="EFSAT project card" /></a>
+  <a href="https://github.com/Mithil-7/GSoC-2026-PyMC-Preparation"><img src="assets/project-gsoc.svg" width="49%" alt="PyMC GSoC preparation project card" /></a>
 </p>
 
-| Area | Technologies & concepts |
+| Repository | Short description |
 | :--- | :--- |
-| **Learning & decision-making** | PPO · DQN · Multi-agent RL · Policy gradients · Transfer learning · TensorFlow · PyTorch |
-| **Language & generative AI** | Transformers · BERT / GPT · Hugging Face · RAG · Prompt engineering · Whisper · Ollama |
-| **Vision** | OpenCV · YOLO · Object detection · Image segmentation |
-| **Data & mathematics** | NumPy · Pandas · Matplotlib · Seaborn · Probability · Statistical modeling |
-| **Quantitative finance** | Alpha research · Backtesting · Algorithmic trading · Risk analysis · Portfolio optimization |
-| **Applications & infrastructure** | FastAPI · Django · Flask · React · Flutter · REST / WebSocket APIs · MongoDB · PostgreSQL · Redis · MQTT · Docker |
-| **Languages & environment** | Python · C++ · C · Java · JavaScript · SQL · Git · Linux · Jupyter · Raspberry Pi |
+| [**Adaptive Traffic Management**](https://github.com/Mithil-7/RL-Based-Traffic-Management-System) | A multi-agent traffic platform with computer-vision telemetry, DQN signal control, emergency preemption, routing, MQTT, and a safety layer that learned policies cannot override. Built from the SIH 2025 idea. |
+| [**CraftHaat**](https://github.com/Mithil-7/CraaftHaat) | An offline-first Flutter + FastAPI prototype for artisan listings from a voice note and a photo, with speech, image, catalog, and ONDC preparation steps. |
+| [**Exchange Rate OpenEnv**](https://github.com/Mithil-7/Open_Env-Exchange_rate) | An agent environment for deciding what to do with missing, spiking, or stale exchange-rate observations. |
+| [**Deep Learning Projects**](https://github.com/Mithil-7/DL--nptel-learning-projects) | Foundational models and notebooks from deep-learning coursework. |
+| [**EFSAT**](https://github.com/Mithil-7/EFSAT) | Efficient Satellite Analyser project for SIH 2026. |
+| [**PyMC / GSoC Preparation**](https://github.com/Mithil-7/GSoC-2026-PyMC-Preparation) | Preparation and open-source contribution track for a PyMC-focused GSoC 2026 path. |
 
-## 05 / Experience & milestones
+More original repositories: [Amazon ML Challenge](https://github.com/Mithil-7/Amazon_ML-challenge) · [Data Science Projects](https://github.com/Mithil-7/Data-Science-projects) · [BSTS](https://github.com/Mithil-7/BSTS) · [OSM Closure Routing PoC](https://github.com/Mithil-7/OSM-Closure-Routing-PoC) · [ML4Sci prep](https://github.com/Mithil-7/ML4Sci-prep) · [Prep](https://github.com/Mithil-7/Prep) · [Portfolio source](https://github.com/Mithil-7/Mithil-7.github.io)
 
-**WorldQuant · BRAIN Research Consultant**  
-<sub>May 2026–present</sub>  
-Developing and backtesting quantitative alphas on the BRAIN platform using probability and statistical modeling.
+The profile also contains forks used for learning and exploration; they are intentionally not labelled as projects created by me.
+
+## Research notes
+
+### Exchange-rate forecasting
+
+Working on a DNN + PPO approach to financial time series using macroeconomic signals such as crude oil, gold futures, and NIFTY 50.
+
+`DNN` `PPO` `time series` `quant finance`
+
+### Network security
+
+Investigating anomaly detection for Advanced Persistent Threat activity.
+
+`ML` `network security` `anomaly detection`
+
+Both are active research directions. The IEEE publication is a target, not a published result.
+
+## Tools
+
+| Branch | Skills |
+| :--- | :--- |
+| **AI / ML / deep learning** | Reinforcement Learning · Deep Learning · PPO · DQN · MARL · Neural Networks · Policy Gradient · TensorFlow · PyTorch · Keras · Scikit-Learn · Backpropagation · Time Series · Transfer Learning · Model Optimisation |
+| **NLP / LLM** | Natural Language Processing · Large Language Models · Transformers · BERT / GPT architectures · Hugging Face · Text Classification · Sentiment Analysis · Tokenisation · Embeddings · Prompt Engineering · RAG · LangChain |
+| **Computer vision** | OpenCV · YOLO · CNNs · Object Detection · Image Classification · Image Segmentation · Real-time Video Processing · Feature Extraction · Vehicle Detection |
+| **Languages** | Python · Java / Swing · C++ · C · SQL · JavaScript |
+| **Web / full stack** | Django · Streamlit · Flask · FastAPI · React · HTML / CSS · MongoDB · REST APIs |
+| **Data / analytics** | NumPy · Pandas · Matplotlib · Seaborn · Plotly · Feature Engineering · Data Cleaning · Statistical Analysis · EDA · Data Visualisation |
+| **Quantitative finance** | WorldQuant BRAIN · Custom Expression Languages · Algorithmic Trading · Alpha Research · Financial Forecasting · Exchange-rate Modelling · Macroeconomic Analysis · Risk Analysis · Portfolio Optimisation · Backtesting · Probability |
+| **Tools / systems** | High Performance Computing · Git / GitHub · Linux · Jupyter Notebook · Google Colab · VS Code · Docker · Raspberry Pi · DSA · APT Detection · Anomaly Detection · Network Security |
+| **Mathematics** | Probability Theory · Linear Algebra · Calculus · Olympiad Mathematics · Physics · Statistical Modelling · Problem Solving |
+
+## Timeline
+
+- **2026–present** — BRAIN Research Consultant, WorldQuant
+- **2026–present** — Freelance AI/ML developer
+- **2026–present** — Student researcher, SASTRA Deemed University
+- **2025** — CMI STEMS Top 30 India
+- **2025** — Smart India Hackathon project: intelligent traffic management
+- **IOQM** — Qualifier and merit certificate holder
+- **Yale / Coursera** — Financial Markets certification
+
+## Work tree
+
+<p align="center">
+  <a href="https://mithil-7.github.io/interactive-lab.html">
+    <img src="assets/work-tree.svg" width="100%" alt="Branching work tree showing Mithilesh's research, systems, open-source, mathematics, current work, and skills." />
+  </a>
+</p>
+
+The full tree has hover highlighting in the interactive lab. The README version is deliberately static because GitHub strips JavaScript from profile READMEs.
+
+## Contributions, as a 3D field
 
 **Freelance AI/ML Developer**  
 <sub>2026–present</sub>  
@@ -129,20 +156,14 @@ Working on exchange-rate forecasting and APT detection research.
   </a>
 </p>
 
-<sub>Generated from my public GitHub contribution calendar. This is a dated snapshot, not a live feed or performance metric. Click either chart for the latest GitHub activity. Refresh instructions are in <a href="SETUP.md">SETUP.md</a>.</sub>
+The graph is generated from GitHub's contribution calendar and refreshed daily by GitHub Actions. It is not a hand-drawn activity claim. See [SETUP.md](SETUP.md) for the one-time setup.
 
 ---
 
 <div align="center">
 
-### Good questions deserve working prototypes.
+**Research collaborations · internships · freelance AI/ML work**
 
-Open to **research collaborations**, **internships**, and **freelance AI/ML work**—especially where learning systems meet financial data or real-world decisions.
-
-**[Let's talk →](mailto:mithilcuber@gmail.com)**
-
-[Portfolio](https://mithil-7.github.io/) · [LinkedIn](https://www.linkedin.com/in/mithilesh-a-07486935b/) · [GitHub](https://github.com/Mithil-7) · [Stack Exchange](https://stackexchange.com/users/36784600/mithil-a) · [Freelancer](https://www.freelancer.in/u/Mithil7a)
-
-<sub>Mithilesh Adhinarayanan · Signal → Policy → Impact</sub>
+[Start a conversation](mailto:mithilcuber@gmail.com)
 
 </div>
